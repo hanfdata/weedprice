@@ -1,0 +1,175 @@
+/*body{
+  background-color:red;
+}*/
+
+#board{
+  height:2800px;
+  width:1260px;
+  border:2px solid black;
+  background-image:url('http://i.imgur.com/PyU6CBs.jpg');
+}
+
+.elements{
+  height:100px;
+  width:100px;
+  border:2px solid black;
+}
+
+#strainDesc{
+  line-height:100px;
+  width:400px;
+  border:2px solid black;
+  float:left;
+  position:relative;
+  bottom:2800px;
+  left:400px;
+  text-align:center;
+  background-color:white;
+}
+
+#about{
+  line-height:50px;
+  width:400px;
+  border:2px solid black;
+  float:left;
+  position:relative;
+  bottom:2000px;
+  right:150px;
+  text-align:center;
+  background-color:white;
+}
+
+#strainTitle{
+  line-height:100px;
+  float:left;
+  position:relative;
+  bottom:2680px;
+  text-align:center;
+  background-color:white;
+}
+
+#bd, #ds, #hz, #kh, #gsc, #og,#jk, #gg, #ck{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:2px;
+  background-color:white;
+}
+
+#bd:hover, #ds:hover, #hz:hover, #kh:hover, #gsc:hover, #og:hover,#jk:hover, #gg:hover, #ck:hover{
+  color:white;
+  background-color:black;
+}
+
+#bd:active{
+  color:white;
+  background-color:black;
+}
+
+/*, #ds, #hz, #kh, #gsc, #og,#jk, #gg, #ck*/
+
+#bd, #ds, #hz{
+  bottom:2680px;
+  left:20px;
+}
+
+#kh, #gsc, #og{
+  bottom:2570px;
+  right:304px;
+}
+
+#gg, #ck{
+  bottom:2565px;
+  left:528px;
+}
+
+#jk{
+  bottom:2457px;
+  right:410px;
+}
+
+
+#thcContent{
+  float:left;
+  position:relative;
+  bottom:2340px;
+  left:150px;
+  background-color:white;
+  line-height:100px;
+  text-align:center;
+}
+
+
+#pricePerGram{
+  float:left;
+  position:relative;
+  bottom:2200px;
+  right:80px;
+  background-color:white;
+  line-height:100px;
+  text-align:center;
+}
+
+#displayPrice{
+  float:left;
+  position:relative;
+  bottom:2200px;
+  right:50px;
+  background-color:white;
+  line-height:100px;
+  text-align:center;
+}
+
+#percentage1, #percentage2, #percentage3, #percentage4, #percentage5, #percentage6,#percentage7,#percentage8,#percentage9,#percentage10,#percentage11{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+}
+
+#percentage1:hover, #percentage2:hover, #percentage3:hover, #percentage4:hover, #percentage5:hover, #percentage6:hover,#percentage7:hover,#percentage8:hover,#percentage9:hover,#percentage10:hover,#percentage11:hover{
+  color:white;
+  background-color:black;
+}
+#percentage1, #percentage2, #percentage3, #percentage4{
+  bottom:2450px;
+  left:180px;
+}
+
+#percentage5, #percentage6,#percentage7,#percentage8{
+  bottom:2340px;
+  right:244px;
+}
+
+#percentage9{
+  bottom:2334px;
+  left:330px;
+}
+
+#percentage10, #percentage11{
+  bottom:2334px;
+  left:330px;
+}
+
+#graph1{
+  float:left;
+  position:relative;
+  bottom:2050px;
+  right:350px;
+  background-color:white;
+}
+
+#graph2{
+  float:left;
+  position:relative;
+  bottom:2050px;
+  right:160px;
+  background-color:white;
+}
+
+body{
+  background-color:black;
+}
