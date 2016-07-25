@@ -2,6 +2,7 @@
   background-color:red;
 }*/
 
+/*background*/
 #board{
   height:2800px;
   width:1260px;
@@ -9,12 +10,14 @@
   background-image:url('http://i.imgur.com/PyU6CBs.jpg');
 }
 
+/*every div on board*/
 .elements{
   height:100px;
   width:100px;
   border:2px solid black;
 }
 
+/*list of 9 most common strains*/
 #strainDesc{
   line-height:100px;
   width:400px;
@@ -27,18 +30,7 @@
   background-color:white;
 }
 
-#about{
-  line-height:50px;
-  width:400px;
-  border:2px solid black;
-  float:left;
-  position:relative;
-  bottom:2000px;
-  right:150px;
-  text-align:center;
-  background-color:white;
-}
-
+/*static title to tell what to do*/
 #strainTitle{
   line-height:100px;
   float:left;
@@ -48,6 +40,7 @@
   background-color:white;
 }
 
+/*standard strains style*/
 #bd, #ds, #hz, #kh, #gsc, #og,#jk, #gg, #ck{
   float:left;
   position:relative;
@@ -57,70 +50,70 @@
   background-color:white;
 }
 
+/*hover standard strains*/
 #bd:hover, #ds:hover, #hz:hover, #kh:hover, #gsc:hover, #og:hover,#jk:hover, #gg:hover, #ck:hover{
   color:white;
   background-color:black;
 }
 
-#bd:active{
-  color:white;
-  background-color:black;
-}
-
-/*, #ds, #hz, #kh, #gsc, #og,#jk, #gg, #ck*/
-
+/*top row strain*/
 #bd, #ds, #hz{
   bottom:2680px;
   left:20px;
 }
 
+/*middle row*/
 #kh, #gsc, #og{
   bottom:2570px;
   right:304px;
 }
 
-#gg, #ck{
+/*sizing problem bottom row*/
+#gg, #ck, #jk{
   bottom:2565px;
   left:528px;
 }
 
-#jk{
-  bottom:2457px;
-  right:410px;
-}
+/*sizing problem bottom row*/
+/*#jk{
+  bottom:3000px;
+  left:100px;
+}*/
 
-
+/*static instruction title*/
 #thcContent{
   float:left;
   position:relative;
   bottom:2340px;
-  left:150px;
+  left:30px;
   background-color:white;
   line-height:100px;
   text-align:center;
 }
 
-
+/*static title*/
 #pricePerGram{
   float:left;
   position:relative;
   bottom:2200px;
-  right:80px;
+  right:240px;
   background-color:white;
   line-height:100px;
   text-align:center;
 }
 
+/*dynamically created price from strain and percentage*/
 #displayPrice{
   float:left;
   position:relative;
   bottom:2200px;
-  right:50px;
+  right:200px;
   background-color:white;
   line-height:100px;
   text-align:center;
 }
 
+/*standard percentage selector*/
 #percentage1, #percentage2, #percentage3, #percentage4, #percentage5, #percentage6,#percentage7,#percentage8,#percentage9,#percentage10,#percentage11{
   float:left;
   position:relative;
@@ -130,35 +123,551 @@
   background-color:white;
 }
 
+/*hover on percentage default?
 #percentage1:hover, #percentage2:hover, #percentage3:hover, #percentage4:hover, #percentage5:hover, #percentage6:hover,#percentage7:hover,#percentage8:hover,#percentage9:hover,#percentage10:hover,#percentage11:hover{
   color:white;
   background-color:black;
-}
+}*/
+
+/*generic percentage at load
+top row*/
 #percentage1, #percentage2, #percentage3, #percentage4{
   bottom:2450px;
-  left:180px;
+  left:40px;
 }
 
-#percentage5, #percentage6,#percentage7,#percentage8{
+/*middle row*/
+#percentage5, #percentage6,#percentage7, #percentage8{
   bottom:2340px;
-  right:244px;
+  right:385px;
 }
 
-#percentage9{
+
+/*position problem again?*/
+#percentage8{
+  bottom:2445px;
+  left:461px;
+}
+/*bottom row*/
+#percentage9, #percentage10, #percentage11{
   bottom:2334px;
-  left:330px;
+  left:100px;
 }
 
-#percentage10, #percentage11{
+
+/*blue dream thc content
+top row*/
+
+#bd19, #bd20, #bd21, #bd22{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2450px;
+  left:40px;
+}
+
+/*middlerow*/
+#bd24, #bd26, #bd27{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2340px;
+  right:385px;
+}
+
+#bd28{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2445px;
+  left:461px;
+}
+
+/*bottomrow*/
+#bd29, #bd30{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
   bottom:2334px;
-  left:330px;
+  left:100px;
 }
 
+/*bluedream hover*/
+#bd19:hover, #bd20:hover, #bd21:hover, #bd22:hover, #bd24:hover, #bd26:hover, #bd27:hover, #bd28:hover, #bd29:hover, #bd30:hover{
+  color:white;
+  background-color:black;
+}
+
+
+/*Diesel thc content
+top row*/
+#ds14, #ds16, #ds18, #ds20{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2450px;
+  left:40px;
+}
+
+/*middlerow*/
+#ds22, #ds24, #ds26{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2340px;
+  right:385px;
+}
+
+#ds28{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2445px;
+  left:461px;
+}
+
+/*bottomrow*/
+#ds30{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2334px;
+  left:100px;
+}
+
+/*dieselhover*/
+#ds14:hover, #ds16:hover, #ds18:hover, #ds20:hover, #ds22:hover, #ds24:hover, #ds26:hover,#ds28:hover, #ds30:hover{
+  color:white;
+  background-color:black;
+}
+
+/*Haze thc content
+top row*/
+#hz14, #hz16, #hz18, #hz20{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2450px;
+  left:40px;
+}
+
+/*middlerow*/
+#hz22, #hz24, #hz26{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2340px;
+  right:385px;
+}
+
+#hz28{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2445px;
+  left:461px;
+}
+
+/*bottomrow*/
+#hz30{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2334px;
+  left:100px;
+}
+
+/*haze hover*/
+#hz14:hover, #hz16:hover, #hz18:hover, #hz20:hover, #hz22:hover, #hz24:hover, #hz26:hover, #hz28:hover, #hz30:hover{
+  color:white;
+  background-color:black;
+}
+
+/*Kush thc content
+top row*/
+#kh13, #kh15, #kh17, #kh19{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2450px;
+  left:40px;
+}
+
+/*middlerow*/
+#kh21, #kh23, #kh25{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2340px;
+  right:385px;
+}
+
+#kh27{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2445px;
+  left:461px;
+}
+
+
+/*bottomrow*/
+#kh29, #kh31{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2334px;
+  left:100px;
+}
+
+/*Kush hover*/
+#kh13:hover, #kh15:hover, #kh17:hover, #kh19:hover, #kh21:hover, #kh23:hover, #kh25:hover,#kh27:hover,#kh29:hover, #kh31:hover{
+  color:white;
+  background-color:black;
+}
+/*GSC thc content
+top row*/
+#gsc19, #gsc20, #gsc21, #gsc22{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2450px;
+  left:40px;
+}
+
+/*middlerow*/
+#gsc23, #gsc24, #gsc25{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2340px;
+  right:385px;;
+}
+
+#gsc27{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2445px;
+  left:461px;
+}
+
+/*bottomrow*/
+#gsc30{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2334px;
+  left:100px;
+}
+
+/*GSC hover*/
+#gsc19:hover, #gsc20:hover, #gsc21:hover, #gsc22:hover,#gsc23:hover, #gsc24:hover, #gsc25:hover, #gsc27:hover, #gsc30:hover {
+  color:white;
+  background-color:black;
+}
+
+
+
+/*
+/*OG thc content
+top row*/
+#og11, #og13, #og15, #og17{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2450px;
+  left:40px;
+}
+
+/*middlerow*/
+#og19, #og21, #og23{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2340px;
+  right:385px;
+}
+
+#og25{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2445px;
+  left:461px;
+}
+
+/*bottomrow*/
+#og26, #og29, #og32{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2334px;
+  left:100px;
+}
+
+/*OG hover*/
+#og11:hover, #og13:hover, #og15:hover, #og17:hover,#og19:hover, #og21:hover, #og23:hover, #og25:hover, #og26:hover, #og29:hover, #og32:hover {
+  color:white;
+  background-color:black;
+}
+
+
+
+
+
+/*Jack Herer thc content selection of average thc range*/
+/*top row*/
+#jk16, #jk17, #jk18, #jk19{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2450px;
+  left:40px;
+}
+
+/*middlerow*/
+#jk21, #jk23, #jk25{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2340px;
+  right:385px;
+}
+
+#jk27{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2445px;
+  left:461px;
+}
+
+/*bottomrow*/
+#jk30{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2334px;
+  left:100px;
+}
+
+/*hovers of jack herer percentages*/
+#jk16:hover,#jk17:hover,#jk18:hover, #jk19:hover, #jk20:hover, #jk21:hover, #jk23:hover, #jk25:hover, #jk26:hover, #jk27:hover, #jk30:hover{
+  color:white;
+  background-color:black;
+}
+
+/*Jack Herer thc content selection of average thc range*/
+/*top row*/
+#gg18, #gg19, #gg20, #gg21{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2450px;
+  left:40px;
+}
+
+/*middlerow*/
+#gg22, #gg24, #gg25{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2340px;
+  right:385px;
+}
+
+#gg27{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2445px;
+  left:461px;
+}
+
+/*bottomrow*/
+#gg29, #gg30, #gg32{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2334px;
+  left:100px;
+}
+
+/*hovers of jack herer percentages*/
+#gg18:hover, #gg19:hover, #gg20:hover, #gg21:hover,#gg22:hover, #gg24:hover, #gg25:hover, #gg27:hover, #gg29:hover, #gg30:hover, #gg32:hover{
+  color:white;
+  background-color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*green crack thc content selection of average thc range*/
+/*top row*/
+#gc17, #gc19, #gc20, #gc21{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2450px;
+  left:40px;
+}
+
+/*middlerow*/
+#gc23, #gc25, #gc26{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2340px;
+  right:385px;
+}
+
+#gc27{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2445px;
+  left:461px;
+}
+
+/*bottom row*/
+#gc28{
+  float:left;
+  position:relative;
+  line-height:100px;
+  text-align:center;
+  margin:1px;
+  background-color:white;
+  bottom:2334px;
+  left:100px;
+}
+
+/*hovers of green crack percentages*/
+#gc17:hover, #gc19:hover, #gc20:hover, #gc21:hover, #gc23:hover, #gc25:hover, #gc26:hover, #gc27:hover, #gc28:hover{
+  color:white;
+  background-color:black;
+}
+
+
+
+/*footer 2 graphs and about hanfdata*/
 #graph1{
   float:left;
   position:relative;
   bottom:2050px;
-  right:350px;
+  right:550px;
   background-color:white;
 }
 
@@ -166,10 +675,24 @@
   float:left;
   position:relative;
   bottom:2050px;
-  right:160px;
+  right:360px;
   background-color:white;
 }
 
+/*static about*/
+#about{
+  line-height:50px;
+  width:400px;
+  border:2px solid black;
+  float:left;
+  position:relative;
+  bottom:2000px;
+  right:320px;
+  text-align:center;
+  background-color:white;
+}
+
+/*black holder on overscroll*/
 body{
   background-color:black;
 }
